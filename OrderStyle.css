@@ -1,0 +1,28 @@
+* {
+    background-color: cornflowerblue;
+}
+
+#main {
+    Margin: auto;
+    text-align: center;
+
+}
+ table tr td {
+    min-width: 150px;
+    margin: 5px;
+
+ }
+
+table th{
+    text-align: center;
+    margin: 1px;
+    border: 1px solid black;
+
+}
+
+ table td {
+
+    text-align: centre;
+     border: 1px solid black;
+ }
+

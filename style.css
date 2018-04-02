@@ -1,0 +1,29 @@
+form label {
+   padding: 10px;
+    min-width: 200px;
+ }
+
+ form input{
+     min-width: 250px;;
+ }
+
+ form submit{
+     min-width: 500px;
+ }
+
+ table {
+    max-width: 100px;
+    stroke: black 1px;
+    
+ }
+
+addOrder{
+    background-color: aqua;
+    width: 250px;;
+    float: right;
+}
+
+#addConsignment {
+    float: left;
+    width: 250px;
+}
