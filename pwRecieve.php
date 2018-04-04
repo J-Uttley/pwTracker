@@ -13,7 +13,7 @@
 <body>
 
     <?php include 'NavBar.php';?>
-    <h1>Reciept Orders Into Poundworld DC</h1>
+    <h1>Receive Orders Into Poundworld DC</h1>
 
 
 <?php
@@ -39,14 +39,14 @@ if ($result->num_rows > 0) {
         echo "<tr><td>".$row["orderNo"]."</td><td>".$row["PWNo"]. "</td><td> ".$row["PWStore"]."</td><td> ".$row["inProd"]."</td><td> ".$row["bpdDesp"].'</td><td>
         <form method="post" action="Despatch.php">
         <input type="hidden" name="orderNo" value="'.$row["orderNo"].'">
-        <input type="submit" value="Recieved">
+        <input type="submit" value="Received">
         </form>
         
         </td></tr>';
     }
     echo "</table>";
 } else {
-    echo "<h4>No Outstanding Orders to Reciept!</h4>";
+    echo "<h4>No Outstanding Orders to Receive!</h4>";
 }
 $conn->close();
 ?>
