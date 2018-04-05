@@ -15,7 +15,9 @@
       <li class="nav-item">
         <a class="nav-link" href="PWSummary.php">Orders at BPD</a>
       </li>
-
+      <li class="nav-item">
+        <a class="nav-link" href="pwResetDel.php">Correct Status</a>
+      </li>
     </ul>
 
   </div>
